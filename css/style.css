@@ -1,0 +1,183 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.hero-section,
+.navigation {
+    background: #4A90E2;
+    color: #fff;
+}
+
+.navigation {
+    padding: 20px 0px;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li a {
+    display: block;
+    width: 120px;
+    text-align: right;
+    font-weight: 700;
+    color: #fff;
+    float: right;
+}
+
+.navigation li a:hover {
+    opacity: .8;
+}
+
+.nav-logo,
+.nav-links {
+    width: 50%;
+    float: left;
+}
+
+.hero-section h6 {
+    font-size: 18px;
+    padding-top: 120px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 120px;
+    max-width: 820px;
+}
+
+.hero-section h6 {
+    font-size: 18px;
+    font-weight: 700;
+    opacity: .5;
+}
+
+.main-project-title {
+    color: #4A90E2;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 40px 0px 20px 0px;
+}
+
+.card-container {
+    display: inline-grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+}
+
+.project-card {
+    height: 720px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 570px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.project-card h6 {
+    font-size: 14px;
+    font-weight: 700;
+    opacity: .5;
+    padding-top: 20px;
+}
+
+.project-card h3 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 0px;
+}
+
+.reconsole,
+.hero-reconsole,
+.hero-reconsole li a {
+    background: #EBF7FB;
+    color: #3AB2DE;
+}
+
+.workday {
+    background: #FEF7EA;
+    color: #F6A01F;
+}
+
+.luxury {
+    background: #E5F0F8;
+    color: #0070BF;
+}
+
+.fuel {
+    background: #E9EBF0;
+    color: #27376B;
+}
+
+.project-title-iphone {
+    height: auto;
+    width: 420px;
+    padding-top: 20px;
+}
+
+.project-title-ipad {
+    height: auto;
+    width: 600px;
+    padding-top: 20px;
+}
+
+/*PROJECT PAGE*/
+.project-content {
+    padding-top: 40px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.project-content-title {
+    color: #4A4A4A;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.project-content-copy {
+    color: #9B9B9B;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.project-solution-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.reconsole-title {
+    color: #3AB2DE;
+    ;
+}
+
+.project-image-full {
+    width: 100%;
+    background: Red;
+    padding: 60px 0px;
+    margin-top: 40px;
+}
+
+.reconsole-background {
+    background: #EBF7FB;
+}
+
+.project-image-full-wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.project-image-full-wrapper img {
+    width: 100%;
+}
