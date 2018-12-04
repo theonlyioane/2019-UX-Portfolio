@@ -41,6 +41,10 @@
     float: left;
 }
 
+.id-logo {
+    max-width: 48px;
+}
+
 .hero-section h6 {
     font-size: 18px;
     padding-top: 120px;
@@ -50,7 +54,7 @@
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 120px;
-    max-width: 820px;
+    max-width: 880px;
 }
 
 .hero-section h6 {
@@ -61,7 +65,7 @@
 
 .main-project-title {
     color: #4A90E2;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     padding: 40px 0px 20px 0px;
 }
@@ -100,7 +104,8 @@ a:link {
 
 .reconsole,
 .hero-reconsole,
-.hero-reconsole li a {
+.hero-reconsole li a,
+.image-background-reconsole {
     background: #EBF7FB;
     color: #3AB2DE;
 }
@@ -159,7 +164,6 @@ a:link {
 
 .reconsole-title {
     color: #3AB2DE;
-    ;
 }
 
 .project-image-full {
@@ -180,4 +184,39 @@ a:link {
 
 .project-image-full-wrapper img {
     width: 100%;
+}
+
+.project-image-small {
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.project-image-small img {
+    width: 100%;
+}
+
+.table-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.table {
+    background: #EBF7FB;
+    padding: 20px 40px;
+    ;
+    border: 1px solid #fff;
+}
+
+.table h4 {
+    color: #3AB2DE;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table li {
+    color: #3AB2DE;
+    margin-left: -20px;
+    padding-top: 6px;
 }
